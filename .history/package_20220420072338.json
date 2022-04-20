@@ -1,0 +1,23 @@
+{
+  "name": "server",
+  "version": "0.0.1",
+  "private": "true",
+  "main": "zingmp3Server.js",
+  "scripts": {
+    "start": "node zingmp3Server.js",
+    "build": "ng build",
+    "heroku-postbuild": "ng build --prod"
+  },"engines": {
+    "node": "16.14",
+    "npm":"8.7.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.17.3",
+    "mysql": "^2.18.1",
+    "normalize-port": "^1.0.0",
+    "socket.io": "*",
+    "socketio-file-upload": "^0.7.3",
+    "zingmp3-api-full": "^1.0.9"
+  }
+}

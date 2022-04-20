@@ -1,0 +1,14 @@
+{
+  "name": "server",
+  "version": "0.0.1",
+  "private": "true",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "express": "*",
+    "mysql": "^2.18.1",
+    "socket.io": "*",
+    "socketio-file-upload": "^0.4.4",
+    "zingmp3-api-full": "^1.0.9"
+  }
+  "scripts": {}
+}
