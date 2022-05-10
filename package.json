@@ -4,7 +4,8 @@
   "private": "true",
   "main": "zingmp3Server.js",
   "scripts": {
-    "start": "node zingmp3Server.js"
+    "start": "node zingmp3Server.js",
+    "build":"build online music server"
     
   },"engines": {
     "node": "16.14.0"
