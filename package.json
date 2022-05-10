@@ -4,8 +4,8 @@
   "private": "true",
   "main": "zingmp3Server.js",
   "scripts": {
-    "start": "node zingmp3Server.js",
-    "build": "echo 'Bulding.... (not actually doing something, but usually I would)'"
+    "start": "node zingmp3Server.js"
+    //"build": "echo 'Bulding.... (not actually doing something, but usually I would)'"
     
   },"engines": {
     "node": "16.15.0"
