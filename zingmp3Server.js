@@ -6,7 +6,7 @@ var fs = require("fs");
 const ZingMp3 = require("zingmp3-api-full")
 const PORT = process.env.PORT || 3000;
 const host = '0.0.0.0';
-server.listen(PORT,host);
+server.listen(PORT);
 
 console.log("You conneting to zing mp3 server");
 
